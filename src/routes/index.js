@@ -8,8 +8,8 @@ const RoutesComponent = () => (
  <BrowserRouter>
   <Routes>
    <Route path="/" element={<Home />} />
-   <Route path="/results" element={<Results />} />
-   <Route path="/detail" element={<Detail />} />
+   <Route path="/results/:title" element={<Results />} />
+   <Route path="/detail/:movieId" element={<Detail />} />
   </Routes>
  </BrowserRouter>
 );
